@@ -1,6 +1,9 @@
 # Wing-FTP-RCE Authenticated
 This is a Python3 exploit for the Wing FTP Server running on Windows that requires admin panel authentication.
 
+## Tested versions
+<=4.3.8
+
 ## About the vulnerability
 This exploit was discovered by Alex Haynes.
 
