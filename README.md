@@ -1,4 +1,4 @@
-# Wing-FTP-RCE Authenticated
+# Wing FTP RCE - Authenticated
 This is an exploit written in Python3 for the Wing FTP Server running on Windows. This exploit requires Wing FTP's admin panel authentication.
 
 ## Tested versions
