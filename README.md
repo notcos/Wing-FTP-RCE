@@ -12,7 +12,7 @@ This exploit will invoke a nishang tcp reverse shell on the target. Start your l
 
 #Usage:
 ```
- wingrce.py <TARGET> <TARGET_PORT> <LOCAL_IP> <LOCAL_PORT> <USER> <PASSWORD>
+wingrce.py <TARGET> <TARGET_PORT> <LOCAL_IP> <LOCAL_PORT> <USER> <PASSWORD>
 ```
 #Example:
 ```
